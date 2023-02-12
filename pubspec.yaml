@@ -1,0 +1,33 @@
+name: get_source_comic
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.0-444.6.beta <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  html: 0.15.1
+  google_fonts: 4.0.1
+  easy_rich_text: 1.1.0
+  sqflite: 2.2.4+1
+  path_provider: 2.0.12
+  random_string: 2.3.1
+  google_nav_bar: 5.0.6
+  line_icons: 2.0.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  fonts: 
+    - family: Palano
+      fonts: 
+        - asset: asserts/pala.ttf
+  uses-material-design: true
+
